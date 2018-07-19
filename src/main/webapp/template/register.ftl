@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>文本数据分析平台</title>
+
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../assets/js/jquery-1.8.3.min.js"></script>
+</head>
+<body onLoad="sendRequest()" >
+
+<div class="videozz"></div>
+    
+<div class="box">
+	<div class="box-a">
+    <div class="m-2">
+          <div class="m-2-1">
+            <form action="" id="myform" method="post">
+                <div class="m-2-2">
+                   <input type="text" name="username" placeholder="请输入用户名" />
+                </div>
+                <div class="m-2-2">
+                   <input type="password" name="password" placeholder="请输入密码"/>
+                </div>
+                <div class="m-2-2">
+                    <input type="password" placeholder="请再次输入密码"/>
+                </div>
+                <div class="m-2-2">
+                    <input type="text" name="nickname" placeholder="请输入用户昵称"/>
+                </div>
+                <div class="m-2-2">
+                    <input type="text" name="email" placeholder="请输入邮箱地址"/>
+                </div>
+                <div class="m-2-2" style="display: inline-block;margin-right: 8px;">
+                    <a type="submit" onclick="register();" value="注册" > 注册</a>
+                </div>
+                <div class="m-2-2" style="display: inline-block;margin-left: 8px;">
+                    <a type="submit" href="login.ftl" value="返回"> 返回</a>
+                </div>
+            </form>
+          </div>
+    </div>
+    <div class="m-5"> 
+    <div id="m-5-id-1"> 
+    <div id="m-5-2"> 
+    <div id="m-5-id-2">  
+    </div> 
+    <div id="m-5-id-3"></div> 
+    </div> 
+    </div> 
+    </div>   
+    <div class="m-10"></div>
+    <div class="m-xz7"></div>
+    <div class="m-xz8 xzleft"></div>
+    <div class="m-xz9"></div>
+    <div class="m-xz9-1"></div>
+    <!-- <div class="m-x10"></div>
+    <div class="m-x11"></div>
+    <div class="m-x12 xzleft"></div>
+    <div class="m-x13"></div>
+    <div class="m-x14 xzleft"></div>
+    <div class="m-x15"></div>
+    <div class="m-x16 xzleft"></div>-->
+    <div class="m-x17 xzleft"></div>
+    <div class="m-x18"></div>
+    <div class="m-x19 xzleft"></div>
+    <div class="m-x20"></div>  
+    <div class="m-8"></div>
+    <div class="m-9"><div class="masked1" id="sx8">文本数据分析平台</div></div>
+    <div class="m-11">
+    	<div class="m-k-1"><div class="t1"></div></div>
+        <div class="m-k-2"><div class="t2"></div></div>
+        <div class="m-k-3"><div class="t3"></div></div>
+        <div class="m-k-4"><div class="t4"></div></div>
+        <div class="m-k-5"><div class="t5"></div></div>
+        <div class="m-k-6"><div class="t6"></div></div>
+        <div class="m-k-7"><div class="t7"></div></div>
+    </div>   
+    <div class="m-14"><div class="ss"></div></div>
+    <div class="m-15-a">
+    <div class="m-15-k">
+    	<div class="m-15xz1">
+            <div class="m-15-dd2"></div>
+        </div>
+    </div>
+    </div>
+    <div class="m-16"></div>
+    <div class="m-17"></div>
+    <div class="m-18 xzleft"></div>
+    <div class="m-19"></div>
+    <div class="m-20 xzleft"></div>
+    <div class="m-21"></div>
+    <div class="m-22"></div>
+    <div class="m-23 xzleft"></div>
+    <div class="m-24" id="localtime"></div>
+    </div>
+</div>
+<script src="../assets/js/common.min.js"></script>
+<script type="text/javascript">
+  function register() {
+    myform.action = "register.do";
+    myform.submit();
+  }
+</script>
+</body>
+</html>
